@@ -1,0 +1,27 @@
+.banner {
+	background-image: url("../New_Profile_Site/profile_banner.jpg");
+	background-repeat: no-repeat;
+	background-size: 1500px 700px;
+
+}
+
+.title {
+	color:white;
+	text-align: center;
+	padding-bottom: 250px;
+	padding-top: 150px;
+}
+
+.name {
+	font-size: 100px;	
+}
+
+.navbar-text {
+	color: white;
+	font-weight: bold;
+	margin-right: 0;
+}
+
+.background_name{
+	background-color: black;
+}
