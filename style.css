@@ -1,3 +1,9 @@
+.content {
+	margin: auto;
+	width: 80%;
+
+}
+
 .banner {
 	background-image: url("../New_Profile_Site/profile_banner.jpg");
 	background-size: 100% 100%;
@@ -6,9 +12,10 @@
 }
 
 .nav-style {
+
 	padding: 20px;
-	margin-right: 150px; 
-	margin-left: 150px;
+	padding-right: 150px;
+	padding-left: 150px;
 	display: flex;
 	justify-content: space-around;
 }
@@ -18,7 +25,18 @@ button {
   	margin: 10%;
   	border: 1px solid black;
   	opacity: 0.6;
-  	filter: alpha(opacity=60);
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+.statement {
+	text-align: center;
+	font-size: 20px;
+	padding: 20px 0px;
+	background: #F0F0F0;
+	background: linear-gradient(to right, #F0F0F0 , white);
 }
 
 .title {
@@ -49,4 +67,40 @@ button {
 .background_name{
 	padding:50px;
 	background-color: black;
+}
+
+.icons-section {
+	background-color: black;
+	color: #4682B4;
+	text-align: center;
+	font-size: 50px;
+	padding: 10px 0px;
+}
+
+.talent-images {
+	width: 100%;
+}
+
+.coding-skills {
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+
+.specialties {
+	padding: 30px;
+}
+
+.talent {
+	margin: 30px 30px 0px 30px;
+	padding: 0px 30px;
+}
+
+.talent-background {
+	background-image: url("white-background.jpg");
+}
+
+.footer-nav {
+	margin-top:30px;
+	background-image: url("profile_banner.jpg");
 }
